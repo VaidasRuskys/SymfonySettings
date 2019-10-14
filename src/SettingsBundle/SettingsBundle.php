@@ -13,7 +13,7 @@ class SettingsBundle extends Bundle
     {
         parent::build($container);
 
-        $container->addCompilerPass($translatorPass = new CreateTranslatorPass());
+        $container->addCompilerPass($translatorPass = new SetSettingsPass());
     }
 
     public function getContainerExtension()

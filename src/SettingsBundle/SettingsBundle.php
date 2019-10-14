@@ -7,7 +7,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 use VaidasRuskys\SymfonySettings\SettingsBundle\DependencyInjection\Compiler\SetSettingsPass;
 use VaidasRuskys\SymfonySettings\SettingsBundle\DependencyInjection\SymfonySettingsExtension;
 
-class DatabaseTranslatorBundle extends Bundle
+class SettingsBundle extends Bundle
 {
     public function build(ContainerBuilder $container)
     {

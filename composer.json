@@ -1,0 +1,27 @@
+{
+  "name": "vaidas-ruskys/symfony-settings",
+  "description": "Symfony settings",
+  "authors": [
+    {
+      "name": "Vaidas Ruskys",
+      "email": "vaidas.ruskys@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.5",
+    "symfony/symfony": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "VaidasRuskys\\SymfonySettings\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "VaidasRuskys\\SymfonySettings\\Tests\\": "tests/"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 <?php
 
-namespace VaidasRuskys\DatabaseTranslator\Translation\DependencyInjection\Compiler;
+namespace VaidasRuskys\SymfonySettings\SettingsBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

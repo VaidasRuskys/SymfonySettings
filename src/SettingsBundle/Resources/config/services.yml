@@ -1,1 +1,3 @@
 services:
+    symfony_settings.settings:
+        class: VaidasRuskys\SymfonySettings\SettingsBundle\Service\SettingsService

@@ -35,6 +35,6 @@ class SettingsService
 
     public function addStorage(SettingsStorageInterface $settingsStorage)
     {
-        $this->storages[] = $settingsStorage;
+        array_unshift($this->storages, $settingsStorage);
     }
 }

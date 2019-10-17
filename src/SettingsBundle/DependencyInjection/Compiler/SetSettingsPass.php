@@ -11,5 +11,6 @@ class SetSettingsPass implements CompilerPassInterface
 {
     public function process(ContainerBuilder $container)
     {
+        var_dump('process');
     }
 }
